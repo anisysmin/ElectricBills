@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ElectricBills" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="Theme.ElectricBills" parent="Base.Theme.ElectricBills" />
+
+    <style name="ClearButtonStyle">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/darkGrey</item>
+        <item name="android:strokeColor">@color/darkGrey</item>
+    </style>
+</resources>
